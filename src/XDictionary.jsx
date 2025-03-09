@@ -43,7 +43,7 @@ export default function XDictionary(){
                 onChange={handleChange}>
             </input>
             <button onClick={handleClick}>Search</button>
-            <h4 style={{marginTop:"-2px"}}>Definition:</h4>
+            <h3 style={{marginTop:"-2px"}}>Definition:</h3>
             {meaning?
             <p>{meaning}</p>
             : null
